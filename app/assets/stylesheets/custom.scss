@@ -1,42 +1,56 @@
 @import "bootstrap-sprockets";
 @import "bootstrap";
+@import url('https://fonts.googleapis.com/css2?family=Piedra&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pangolin&family=Piedra&display=swap');
 
 /* mixins, variables, etc. */
 $gray-medium-light: #eaeaea;
 
 /* universal */
 body {
-padding-top: 60px;
+    padding-top: 60px;
+    background-color: #92dbfc;
 }
+
 section {
-overflow: auto;
+    overflow: auto;
 }
+
 textarea {
-resize: vertical;
+    resize: vertical;
 }
+
 .center {
-text-align: center;
-h1 {
-margin-bottom: 10px;
-}
+    text-align: center;
+    h1 {
+        margin-bottom: 10px;
+        font-size: 150px;
+        font-family: 'Piedra', cursive;
+        color: orange;
+        -webkit-text-stroke: 2px black;
+    }
+    h2{
+        font-size: 30px;
+        font-family: 'Pangolin', cursive;
+    }
 }
 /* typography */
 h1, h2, h3, h4, h5, h6 {
 line-height: 1;
 }
 h1 {
-font-size: 3em;
-letter-spacing: -2px;
-margin-bottom: 30px;
-text-align: center;
+    font-size: 3em;
+    letter-spacing: -2px;
+    margin-bottom: 30px;
+    text-align: center;
 }
 h2 {
-font-size: 1.2em;
-letter-spacing: -1px;
-margin-bottom: 30px;
-text-align: center;
-font-weight: normal;
-color: $gray-light;
+    font-size: 1.2em;
+    letter-spacing: -1px;
+    margin-bottom: 30px;
+    text-align: center;
+    font-weight: normal;
+    color: $gray-light;
 }
 p {
 font-size: 1.1em;
