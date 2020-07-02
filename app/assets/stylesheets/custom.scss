@@ -21,19 +21,20 @@ textarea {
 }
 
 .center {
-    text-align: center;
-    h1 {
-      margin-bottom: 10px;
-      font-size: 150px;
-      font-family: 'Piedra', cursive;
-      color: orange;
-      -webkit-text-stroke: 2px black;
-    }
-    h2{
-      font-size: 30px;
-      font-family: 'Pangolin', cursive;
-    }
+  text-align: center;
+  h1 {
+    margin-bottom: 10px;
+    font-size: 150px;
+    font-family: 'Piedra', cursive;
+    color: orange;
+    -webkit-text-stroke: 2px black;
+  }
+  h2{
+    font-size: 30px;
+    font-family: 'Pangolin', cursive;
+  }
 }
+
 /* typography */
 h1, h2, h3, h4, h5, h6 {
 line-height: 1;
