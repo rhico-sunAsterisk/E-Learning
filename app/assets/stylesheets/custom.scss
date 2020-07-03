@@ -3,10 +3,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Piedra&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Pangolin&family=Piedra&display=swap');
 
-/* mixins, variables, etc. */
 $gray-medium-light: #eaeaea;
 
-/* universal */
 body {
   padding-top: 60px;
   background-color: #92dbfc;
@@ -35,16 +33,17 @@ textarea {
   }
 }
 
-/* typography */
 h1, h2, h3, h4, h5, h6 {
 line-height: 1;
 }
+
 h1 {
   font-size: 3em;
   letter-spacing: -2px;
   margin-bottom: 30px;
   text-align: center;
 }
+
 h2 {
   font-size: 1.2em;
   letter-spacing: -1px;
@@ -53,12 +52,12 @@ h2 {
   font-weight: normal;
   color: $gray-light;
 }
+
 p {
   font-size: 1.1em;
   line-height: 1.7em;
 }
 
-/* header */
 #logo {
   float: left;
   margin-right: 10px;
@@ -69,11 +68,11 @@ p {
   padding-top: 9px;
   font-weight: bold;
   &:hover {
-      color: white;
-      text-decoration: none;
+    color: white;
+    text-decoration: none;
   }
 }
-/* footer */
+
 footer {
   margin-top: 45px;
   padding-top: 5px;
@@ -116,7 +115,6 @@ footer {
   }
 }
    
-/* sidebar */
 aside {
   section.user_info {
     margin-top: 20px;
@@ -152,7 +150,6 @@ aside {
   margin-top: 15px;
 }
 
-/* forms */
 input, textarea, select, .uneditable-input {
   border: 1px solid #bbb;
   width: 100%;
@@ -178,7 +175,6 @@ input {
   }
 }
 
-/* Users index */
 .users {
   list-style: none;
   margin: 0;
