@@ -37,13 +37,13 @@ class UsersController < ApplicationController
       render 'edit'
     end
   end
-  
+
   def destroy
     User.find(params[:id]).destroy
     flash[:success] = "User deleted"
     redirect_to users_url
   end
-  
+
   private
     def user_params
       params.require(:user).permit(:name, :email, :password,
