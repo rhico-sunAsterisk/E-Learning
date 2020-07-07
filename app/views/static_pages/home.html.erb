@@ -1,10 +1,17 @@
-<div class="center">
+<% if logged_in? %>
     <h1>AWESOME!</h1>
     <h2>
         You made it this far? Congrats!
-        <br>
-        <br>
-        Now, click the sign-up button and let the magic begins. 
     </h2>
-    <%= link_to "Sign up now!", signup_path, class: "btn btn-lg btn-primary" %>
-</div>
+<% else %>
+    <div class="center">
+        <h1>AWESOME!</h1>
+        <h2>
+            You made it this far? Congrats!
+            <br>
+            <br>
+            Now, click the sign-up button and let the magic begins. 
+        </h2>
+        <%= link_to "Sign up now!", signup_path, class: "btn btn-lg btn-primary" %>
+    </div>
+<% end %>
