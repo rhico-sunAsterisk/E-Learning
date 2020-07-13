@@ -1,8 +1,11 @@
 <% if logged_in? %>
     <h1>AWESOME!</h1>
     <h2>
-        You made it this far? Congrats!
+    You made it this far? Congrats!
     </h2>
+    <section class="stats">
+        <%= render 'shared/stats' %>
+    </section>
 <% else %>
     <div class="center">
         <h1>AWESOME!</h1>
